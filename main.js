@@ -54,7 +54,7 @@ function init() {
 
   const maxAnisotropy = renderer.getMaxAnisotropy();
   console.log(maxAnisotropy);
-  const loader = new GLTFLoader().setPath( 'models/gltf/' );
+  const loader = new GLTFLoader().setPath( './models/gltf/' );
   loader.load( 'sponza/Sponza.gltf', function ( gltf ) {
 
     gltf.scene.traverse(function (child) {
