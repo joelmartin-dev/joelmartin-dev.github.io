@@ -1,9 +1,14 @@
 {
   "dependencies": {
+    "gh-pages": "^6.2.0",
     "three": "^0.170.0",
     "vite-plugin-top-level-await": "^1.4.4"
   },
   "devDependencies": {
     "vite": "^5.4.11"
+  },
+  "scripts": {
+    "deploy": "gh-pages deploy -d dist",
+    "build": "vite build"
   }
 }
